@@ -27,25 +27,45 @@ public class Recursividad {
         info.add(54);
         info.add(34);
         
-        /*System.out.println("/////////////////////////////////////");
-        System.out.println("//         Elige la opción         //");
-        System.out.println("/////////////////////////////////////");
-        System.out.println("\n");
-        System.out.println("1. Suma de números naturales (1+2+3+...+n)");
+        int[][] m = {{1,2,3},{4,5,6},{7,8,9}};
+        
+        //Suma Números naturales de forma recursiva, dandole n como límite
+        /*SumaNum primersuma = new SumaNum();
+        System.out.println(primersuma.getSuma(50));
         */
-        //SumaNum primersuma = new SumaNum();
-        //System.out.println(primersuma.getSuma(50));
+        //
+        /*Factorial resFactorial = new Factorial();
+        System.out.println(resFactorial.getFactorial(7));
+        */
+        /*BuscaArray resBuscaArray = new BuscaArray(info);
+        System.out.println("El dato se encontró en índice:" + 
+                resBuscaArray.buscaDato(555));
+        */
         
-        //Factorial resFactorial = new Factorial();
-        //System.out.println(resFactorial.getFactorial(7));
+       /*RecorreMatriz resRecorreMat = new RecorreMatriz();
+       resRecorreMat.getMatriz(m, 0, 0);
+       */
+       
+       /*PiramideRecursiva resPiramide = new PiramideRecursiva();
+       resPiramide.getPiramide(15);
+       */
+       
+       //Calcular el valor de la posición fibonacci usando recursividad. 
+       //Fibonacci resFibonacci = new Fibonacci();
+       //System.out.println(resFibonacci.getFibonacci(12));
+       
+       //Invertir número de forma recursiva
+       //InvertirNumero resInvNum = new InvertirNumero();
+       //System.out.println(resInvNum.getInvertirNumero(123456789));
+       
+       //Invertir palabra de forma recursiva
+       //InvertirPalabra resInvertir = new InvertirPalabra();
+       //System.out.println(resInvertir.getPalabra("comadreja"));
         
-        BuscaArray resBuscaArray = new BuscaArray(info);
-        System.out.println("El dato se encontró en índice:" + resBuscaArray.buscaDato(555));
-        
-        
-        
-        
-        
-        
+       Potencia resPotencia = new Potencia();
+       System.out.println(resPotencia.getPotencia(-1, 3));
+       
     }
+    
+    
 }
